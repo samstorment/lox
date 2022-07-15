@@ -14,3 +14,8 @@ vr dev
 # Provide file path to run file
 vr dev example.lox
 ```
+
+
+### Stopped at
+
+https://craftinginterpreters.com/representing-code.html#visitors-for-expressions

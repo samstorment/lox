@@ -1,6 +1,6 @@
-import Token from './Token.ts';
-import Tokens, { Keywords, KeywordType } from './Tokens.ts';
-import type { TokenType } from './Tokens.ts';
+import Token from './token.ts';
+import Tokens, { Keywords, KeywordType } from './tokens.ts';
+import type { TokenType } from './tokens.ts';
 import { error } from './main.ts';
 
 export default class Scanner {

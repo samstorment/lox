@@ -1,6 +1,5 @@
 
-import Scanner from './Scanner.ts';
-import { bgBlack } from "https://deno.land/std@0.148.0/fmt/colors.ts";
+import Scanner from './scanner.ts';
 
 
 export let hadError = false;
@@ -28,7 +27,7 @@ main();
 function run(source: string) {
     const scanner = new Scanner(source);
     const tokens = scanner.scanTokens();
-    // console.table(tokens);
+    console.table(tokens);
 }
 
 async function runFile(filePath: string) {

@@ -13,7 +13,7 @@ export const Keywords = {
     CLASS: 'class',
     THIS: 'this',
     SUPER: 'super',
-    NIL: 'null',
+    NULL: 'null',
     PRINT: 'print',
     VAR: 'var'
 } as const;

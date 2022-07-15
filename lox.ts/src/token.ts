@@ -1,4 +1,4 @@
-import type { TokenType } from './Tokens';
+import type { TokenType } from './tokens.ts';
 
 export default class Token {
 
